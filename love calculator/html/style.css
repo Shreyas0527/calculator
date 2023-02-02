@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(bg.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+  label{
+    display: block;
+    margin-top: 1rem;
+  }
+
+  .first{
+    color: #ef8172;
+  }
+
+  .second{
+    color: #ef8172;
+  }
+
+  .third{
+    color: #ef8172;
+  }
+
+  h1{
+    margin: 0 0 10px;
+    padding: 0;
+    color: #ef8172;
+    font-size: 24px;
+  }
+
+  .box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    transform: translate(-50%,-50%);
+  }
+
+  input{
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: .5s;
+  }
+  input[type="text"]
+  {
+    background:rgb(244, 200, 168);
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+  }
+
+  input[type="submit"]
+  {
+    color: white;
+    background:rgb(244, 200, 168);
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+  }
+  input[type="text"]:hover{
+    background-color: rgb(240, 185, 146);
+    
+  }
+
+  input[value="view score"]{
+    background: white;
+  }
+  
